@@ -37,7 +37,10 @@ export async function getMarket(id: string): Promise<MarketView> {
 
 /** Home page: the Match Winner market of each live / upcoming bettable match, live first. */
 export async function listFeatured(limit: number): Promise<Array<{ match: MatchSummaryView; market: MarketView }>> {
-  const matches = await Match.find({ bettingEnabled: true, status: { $in: ['LIVE', 'INNINGS_BREAK', 'TOSS', 'UPCOMING'] } })
+  const { providerMode } = await getSettings();
+  // Real fixtures don't update in replay mode, so bets on them could never settle.
+  const source = providerMode === 'replay' ? { source: 'replay' } : {};
+  const matches = await Match.find({ bettingEnabled: true, status: { $in: ['LIVE', 'INNINGS_BREAK', 'TOSS', 'UPCOMING'] }, ...source })
     .sort({ featured: -1, status: 1, startTime: 1 })
     .limit(limit * 2)
     .select('-squads')

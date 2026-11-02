@@ -54,6 +54,21 @@ async function innings1(matchId: string) {
 }
 
 describe('pre-match markets', () => {
+  it('leaves real fixtures out of the featured picks in replay mode', async () => {
+    const { matchId } = await setup();
+    const featured = async () => {
+      const res = await request(app()).get('/api/markets/featured').expect(200);
+      return (res.body as { data: Array<{ match: { id: string } }> }).data.map((f) => f.match.id);
+    };
+    expect(await featured()).toContain(matchId);
+
+    await Match.updateOne({ _id: matchId }, { $set: { source: 'live' } });
+    expect(await featured()).not.toContain(matchId);
+
+    await updateSettings({ providerMode: 'live' }, 'test');
+    expect(await featured()).toContain(matchId);
+  });
+
   it('creates and prices the full pre-match book', async () => {
     const { matchId } = await setup();
     const m = await byKey(matchId);

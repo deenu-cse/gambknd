@@ -1,6 +1,7 @@
 import type { Request, Response } from 'express';
 import { parseOrThrow } from '../../middleware/validate.js';
 import { sendOk } from '../../utils/http.js';
+import { getSettings } from '../settings/settings.service.js';
 import { commentaryQuery, limitQuery, listMatchesQuery, playerSearchQuery } from './matches.schema.js';
 import * as matches from './matches.service.js';
 import { ensureSquads, getPlayer, searchPlayers } from './players.service.js';
@@ -9,10 +10,12 @@ const id = (req: Request): string => String(req.params.id);
 
 export async function list(req: Request, res: Response): Promise<void> {
   const q = parseOrThrow(listMatchesQuery, req.query);
+  // Nothing updates real fixtures in replay mode, so they would sit frozen on the home page.
+  const source = q.source ?? ((await getSettings()).providerMode === 'replay' ? 'replay' : undefined);
   const rows = await matches.listMatches({
     bucket: q.bucket,
     limit: q.limit,
-    ...(q.source ? { source: q.source } : {}),
+    ...(source ? { source } : {}),
     ...(q.seriesId ? { seriesId: q.seriesId } : {}),
     ...(q.team ? { teamKey: q.team } : {}),
   });

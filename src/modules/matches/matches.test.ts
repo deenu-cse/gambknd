@@ -130,6 +130,20 @@ describe('public match API', () => {
     expect(JSON.stringify(detail.body)).not.toMatch(/apikey|providerRef/);
   });
 
+  it('hides real fixtures in replay mode, because nothing updates them', async () => {
+    const id = await liveMatchId();
+    await Match.updateOne({ _id: id }, { $set: { source: 'live' } });
+    const ids = async () => {
+      const res = await request(app()).get('/api/matches?bucket=live').expect(200);
+      return (res.body as { data: Array<{ id: string }> }).data.map((m) => m.id);
+    };
+
+    expect(await ids()).not.toContain(id);
+
+    await updateSettings({ providerMode: 'live' }, 'test');
+    expect(await ids()).toContain(id);
+  });
+
   it('pages commentary newest-first and serves scorecard, overs and squads', async () => {
     const id = await liveMatchId();
     const first = await request(app()).get(`/api/matches/${id}/commentary?limit=5`).expect(200);
