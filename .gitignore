@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*.local
+.data/
+.tools/
+# Raw provider captures contain the API key — never commit (see docs/ASSUMPTIONS.md A-14)
+allapi/
+*.log

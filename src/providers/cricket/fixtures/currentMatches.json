@@ -1,0 +1,98 @@
+[
+  {
+    "id": "b4c6f171-def5-4956-855e-89a9c2edcb9c",
+    "name": "Bulgaria Women vs Sweden Women, 2nd Match, ECA Womens European Cup, 2026",
+    "matchType": "t20",
+    "status": "Sweden Women won by 10 wkts",
+    "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+    "date": "2026-10-15",
+    "dateTimeGMT": "2026-10-15T00:00:00",
+    "teams": ["Bulgaria Women", "Sweden Women"],
+    "teamInfo": [
+      { "name": "Bulgaria Women", "shortname": "BW", "img": "https://h.cricapi.com/img/icon512.png" },
+      { "name": "Sweden Women", "shortname": "SWE-W", "img": "https://g.cricapi.com/iapi/3004-638040161487648380.webp?w=48" }
+    ],
+    "score": [
+      { "r": 98, "w": 9, "o": 20, "inning": "bulgaria women Inning 1" },
+      { "r": 99, "w": 0, "o": 5.5, "inning": "Bulgaria Women,Sweden Women Inning 1" }
+    ],
+    "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8",
+    "fantasyEnabled": true,
+    "bbbEnabled": false,
+    "hasSquad": false,
+    "matchStarted": true,
+    "matchEnded": true
+  },
+  {
+    "id": "a2dc4f6c-4648-44d6-88d2-0932994a93e6",
+    "name": "Austria Women vs Sweden Women, 1st Match, ECA Womens European Cup, 2026",
+    "matchType": "t20",
+    "status": "Sweden Women won by 9 wkts",
+    "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+    "date": "2026-10-15",
+    "dateTimeGMT": "2026-10-15T00:00:00",
+    "teams": ["Austria Women", "Sweden Women"],
+    "teamInfo": [
+      { "name": "Austria Women", "shortname": "AUTW", "img": "https://g.cricapi.com/iapi/581-637867646191086862.webp?w=48" },
+      { "name": "Sweden Women", "shortname": "SWE-W", "img": "https://g.cricapi.com/iapi/3004-638040161487648380.webp?w=48" }
+    ],
+    "score": [
+      { "r": 91, "w": 9, "o": 20, "inning": "Austria Women Inning 1" },
+      { "r": 92, "w": 1, "o": 9.4, "inning": "Sweden Women Inning 1" }
+    ],
+    "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8",
+    "fantasyEnabled": true,
+    "bbbEnabled": false,
+    "hasSquad": false,
+    "matchStarted": true,
+    "matchEnded": true
+  },
+  {
+    "id": "b9abacfc-903e-4578-8d13-f354c58e4a2c",
+    "name": "Austria Women vs Bulgaria Women, 4th Match, ECA Womens European Cup, 2026",
+    "matchType": "t20",
+    "status": "Austria Women won by 10 wkts (DLS method)",
+    "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+    "date": "2026-10-16",
+    "dateTimeGMT": "2026-10-16T11:00:00",
+    "teams": ["Austria Women", "Bulgaria Women"],
+    "teamInfo": [
+      { "name": "Austria Women", "shortname": "AUTW", "img": "https://g.cricapi.com/iapi/581-637867646191086862.webp?w=48" },
+      { "name": "Bulgaria Women", "shortname": "BW", "img": "https://h.cricapi.com/img/icon512.png" }
+    ],
+    "score": [
+      { "r": 39, "w": 8, "o": 12, "inning": "bulgaria women Inning 1" },
+      { "r": 37, "w": 0, "o": 4.5, "inning": "Austria Women,Bulgaria Women Inning 1" }
+    ],
+    "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8",
+    "fantasyEnabled": true,
+    "bbbEnabled": false,
+    "hasSquad": false,
+    "matchStarted": true,
+    "matchEnded": true
+  },
+  {
+    "id": "2a57d45e-5d2f-4361-b4da-7ad3d0b908cd",
+    "name": "Romania Women vs Bulgaria Women, 3rd Match, ECA Womens European Cup, 2026",
+    "matchType": "t20",
+    "status": "Bulgaria Women won by 2 wkts - 15 overs game",
+    "venue": "Moara Vlasiei Cricket Ground, Bucharest, Ilfov County",
+    "date": "2026-10-16",
+    "dateTimeGMT": "2026-10-16T07:00:00",
+    "teams": ["Romania Women", "Bulgaria Women"],
+    "teamInfo": [
+      { "name": "Bulgaria Women", "shortname": "BW", "img": "https://h.cricapi.com/img/icon512.png" },
+      { "name": "Romania Women", "shortname": "RW", "img": "https://g.cricapi.com/iapi/645-637867439654876721.png?w=48" }
+    ],
+    "score": [
+      { "r": 75, "w": 5, "o": 15, "inning": "romania women Inning 1" },
+      { "r": 76, "w": 8, "o": 13.3, "inning": "Romania Women,Bulgaria Women Inning 1" }
+    ],
+    "series_id": "12e5ef6f-1105-4f20-8f6f-36d9f2825ed8",
+    "fantasyEnabled": true,
+    "bbbEnabled": false,
+    "hasSquad": false,
+    "matchStarted": true,
+    "matchEnded": true
+  }
+]

@@ -1,0 +1,285 @@
+{
+  "info": {
+    "id": "74118296-7b42-46b1-8b43-efa92bb3ac6b",
+    "name": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+    "startdate": "2026-10-05",
+    "enddate": "Oct 14",
+    "odi": 0,
+    "t20": 21,
+    "test": 0,
+    "squads": 7,
+    "matches": 21
+  },
+  "matchList": [
+    {
+      "id": "7896b60c-6f71-40ad-ad18-1521bb2f3475",
+      "name": "Kuwait vs Myanmar, 13th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Kuwait won by 9 wkts",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "Kuwait",
+        "Myanmar"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kuwait",
+          "shortname": "KUW",
+          "img": "https://g.cricapi.com/iapi/621-637864920257551899.webp?w=48"
+        },
+        {
+          "name": "Myanmar",
+          "shortname": "MYAN",
+          "img": "https://g.cricapi.com/iapi/630-637928917494065904.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "e982aea2-1238-448c-9005-1cd04642693f",
+      "name": "Bhutan vs Thailand, 21st Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Thailand won by 37 runs",
+      "venue": "Selangor Turf Club, Kuala Lumpur",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T06:00:00",
+      "teams": [
+        "Bhutan",
+        "Thailand"
+      ],
+      "teamInfo": [
+        {
+          "name": "Bhutan",
+          "shortname": "BHU",
+          "img": "https://g.cricapi.com/iapi/588-637928919038194137.png?w=48"
+        },
+        {
+          "name": "Thailand",
+          "shortname": "THAI",
+          "img": "https://g.cricapi.com/iapi/661-637873698140793668.webp?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "6555d19f-1ffb-4f91-890d-2919fe262238",
+      "name": "Bhutan vs Qatar, 14th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Qatar won by 9 wkts",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-11",
+      "dateTimeGMT": "2026-10-11T00:00:00",
+      "teams": [
+        "Bhutan",
+        "Qatar"
+      ],
+      "teamInfo": [
+        {
+          "name": "Bhutan",
+          "shortname": "BHU",
+          "img": "https://g.cricapi.com/iapi/588-637928919038194137.png?w=48"
+        },
+        {
+          "name": "Qatar",
+          "shortname": "QAT",
+          "img": "https://g.cricapi.com/iapi/577-637877086204623715.webp?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "586c0a37-7512-44c4-9e60-356a541d0ebb",
+      "name": "Kuwait vs Thailand, 7th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Kuwait won by 9 wkts",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-08",
+      "dateTimeGMT": "2026-10-08T01:15:00",
+      "teams": [
+        "Kuwait",
+        "Thailand"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kuwait",
+          "shortname": "KUW",
+          "img": "https://g.cricapi.com/iapi/621-637864920257551899.webp?w=48"
+        },
+        {
+          "name": "Thailand",
+          "shortname": "THAI",
+          "img": "https://g.cricapi.com/iapi/661-637873698140793668.webp?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "d98080ac-a5a9-4236-92b7-3e694ef1e8b2",
+      "name": "Myanmar vs Mongolia, 19th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Myanmar won by 9 wkts",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-14",
+      "dateTimeGMT": "2026-10-14T01:15:00",
+      "teams": [
+        "Myanmar",
+        "Mongolia"
+      ],
+      "teamInfo": [
+        {
+          "name": "Mongolia",
+          "shortname": "MN",
+          "img": "https://h.cricapi.com/img/icon512.png"
+        },
+        {
+          "name": "Myanmar",
+          "shortname": "MYAN",
+          "img": "https://g.cricapi.com/iapi/630-637928917494065904.png?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "12c2ca23-f69b-4854-a5fd-60a592c72384",
+      "name": "Qatar vs Thailand, 4th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Qatar won by 7 wkts",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-06",
+      "dateTimeGMT": "2026-10-06T01:15:00",
+      "teams": [
+        "Qatar",
+        "Thailand"
+      ],
+      "teamInfo": [
+        {
+          "name": "Qatar",
+          "shortname": "QAT",
+          "img": "https://g.cricapi.com/iapi/577-637877086204623715.webp?w=48"
+        },
+        {
+          "name": "Thailand",
+          "shortname": "THAI",
+          "img": "https://g.cricapi.com/iapi/661-637873698140793668.webp?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "2ecaf0d6-33fb-44c2-92e4-66f6b7a08d86",
+      "name": "Kuwait vs Mongolia, 6th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Kuwait won by 10 wkts",
+      "venue": "Bayuemas Oval, Kuala Lumpur",
+      "date": "2026-10-06",
+      "dateTimeGMT": "2026-10-06T06:00:00",
+      "teams": [
+        "Kuwait",
+        "Mongolia"
+      ],
+      "teamInfo": [
+        {
+          "name": "Kuwait",
+          "shortname": "KUW",
+          "img": "https://g.cricapi.com/iapi/621-637864920257551899.webp?w=48"
+        },
+        {
+          "name": "Mongolia",
+          "shortname": "MN",
+          "img": "https://h.cricapi.com/img/icon512.png"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "ad5a8faf-0863-4be1-9a15-6bfcb16893bd",
+      "name": "Bhutan vs Kuwait, 18th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Kuwait won by 8 wkts",
+      "venue": "Selangor Turf Club, Kuala Lumpur",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "Bhutan",
+        "Kuwait"
+      ],
+      "teamInfo": [
+        {
+          "name": "Bhutan",
+          "shortname": "BHU",
+          "img": "https://g.cricapi.com/iapi/588-637928919038194137.png?w=48"
+        },
+        {
+          "name": "Kuwait",
+          "shortname": "KUW",
+          "img": "https://g.cricapi.com/iapi/621-637864920257551899.webp?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    },
+    {
+      "id": "6e9ba236-3e28-4982-bf7d-79036ef6845a",
+      "name": "Myanmar vs Thailand, 17th Match, ICC Mens T20 World Cup Asia Sub Regional Qualifier A 2026",
+      "matchType": "t20",
+      "status": "Thailand won by 9 wkts",
+      "venue": "YSD-UKM Cricket Oval, Bangi",
+      "date": "2026-10-12",
+      "dateTimeGMT": "2026-10-12T00:00:00",
+      "teams": [
+        "Myanmar",
+        "Thailand"
+      ],
+      "teamInfo": [
+        {
+          "name": "Myanmar",
+          "shortname": "MYAN",
+          "img": "https://g.cricapi.com/iapi/630-637928917494065904.png?w=48"
+        },
+        {
+          "name": "Thailand",
+          "shortname": "THAI",
+          "img": "https://g.cricapi.com/iapi/661-637873698140793668.webp?w=48"
+        }
+      ],
+      "fantasyEnabled": true,
+      "bbbEnabled": false,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": true
+    }
+  ]
+}

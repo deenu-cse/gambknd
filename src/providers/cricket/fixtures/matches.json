@@ -1,0 +1,29 @@
+[
+  {
+    "id": "26ae3018-c96f-443d-8ec0-33aa9fccb54e", "name": "Tbc vs Tbc, Final, Abu Dhabi T10 League 2026", "matchType": "t20",
+    "status": "Match starts at Nov 20, 15:45 GMT", "venue": "Sheikh Zayed Stadium, Abu Dhabi", "date": "2026-11-20", "dateTimeGMT": "2026-11-20T15:45:00",
+    "teams": ["Tbc", "Tbc"], "teamInfo": [{ "name": "Tbc", "shortname": "TBC", "img": "https://h.cricapi.com/img/icon512.png" }],
+    "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c", "fantasyEnabled": false, "bbbEnabled": false, "hasSquad": false, "matchStarted": false, "matchEnded": false
+  },
+  {
+    "id": "e27e77b0-57d7-4ab5-8b89-3fa231fc2619", "name": "Emirates Eagles vs United Tigers, 30th Match, Abu Dhabi T10 League 2026", "matchType": "t20",
+    "status": "Match starts at Nov 19, 16:00 GMT", "venue": "Sheikh Zayed Stadium, Abu Dhabi", "date": "2026-11-19", "dateTimeGMT": "2026-11-19T16:00:00",
+    "teams": ["Emirates Eagles", "United Tigers"],
+    "teamInfo": [{ "name": "Emirates Eagles", "img": "https://h.cricapi.com/img/icon512.png" }, { "name": "United Tigers", "img": "https://h.cricapi.com/img/icon512.png" }],
+    "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c", "fantasyEnabled": false, "bbbEnabled": false, "hasSquad": false, "matchStarted": false, "matchEnded": false
+  },
+  {
+    "id": "619df1c5-0aef-473f-a455-e4109c120e78", "name": "Yas Lions vs Royal Desert Champions, 29th Match, Abu Dhabi T10 League 2026", "matchType": "t20",
+    "status": "Match starts at Nov 19, 13:45 GMT", "venue": "Sheikh Zayed Stadium, Abu Dhabi", "date": "2026-11-19", "dateTimeGMT": "2026-11-19T13:45:00",
+    "teams": ["Yas Lions", "Royal Desert Champions"],
+    "teamInfo": [{ "name": "Royal Desert Champions", "img": "https://h.cricapi.com/img/icon512.png" }, { "name": "Yas Lions", "img": "https://h.cricapi.com/img/icon512.png" }],
+    "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c", "fantasyEnabled": false, "bbbEnabled": false, "hasSquad": false, "matchStarted": false, "matchEnded": false
+  },
+  {
+    "id": "173955a8-1dd0-48c8-9a47-5a9514c489d2", "name": "Uae Bulls vs Arabian Aces, 28th Match, Abu Dhabi T10 League 2026", "matchType": "t20",
+    "status": "Match starts at Nov 19, 11:30 GMT", "venue": "Sheikh Zayed Stadium, Abu Dhabi", "date": "2026-11-19", "dateTimeGMT": "2026-11-19T11:30:00",
+    "teams": ["Uae Bulls", "Arabian Aces"],
+    "teamInfo": [{ "name": "Arabian Aces", "img": "https://h.cricapi.com/img/icon512.png" }, { "name": "Uae Bulls", "img": "https://h.cricapi.com/img/icon512.png" }],
+    "series_id": "83667cc0-52ec-4a0f-83b4-59afc75c804c", "fantasyEnabled": false, "bbbEnabled": false, "hasSquad": false, "matchStarted": false, "matchEnded": false
+  }
+]

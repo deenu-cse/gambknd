@@ -1,0 +1,12 @@
+[
+  { "id": "b484bdb4-19f1-4d1e-86f9-10cb404b3a90", "name": "ICC Men's Cricket World Cup 2027", "startDate": "2027-10-02", "endDate": "Nov 21", "odi": 57, "t20": 0, "test": 0, "squads": 0, "matches": 57 },
+  { "id": "3d0cffd9-03e6-438b-9734-5e1fa55d07f8", "name": "Bangladesh Women tour of England, 2027", "startDate": "2027-09-08", "endDate": "Sep 24", "odi": 3, "t20": 3, "test": 0, "squads": 0, "matches": 6 },
+  { "id": "1f4974d1-25f1-4656-a395-bbf496fe3654", "name": "New Zealand tour of England 2027", "startDate": "2027-09-07", "endDate": "Sep 25", "odi": 5, "t20": 3, "test": 0, "squads": 0, "matches": 8 },
+  { "id": "7351297b-83c5-4548-bcb2-45138624e5a8", "name": "Womens Ashes, 2027", "startDate": "2027-06-24", "endDate": "Jul 20", "odi": 2, "t20": 3, "test": 1, "squads": 0, "matches": 7 },
+  { "id": "dd321613-5b40-4033-b33c-c4dee1656478", "name": "The Ashes 2027", "startDate": "2027-06-07", "endDate": "Aug 02", "odi": 0, "t20": 0, "test": 5, "squads": 0, "matches": 6 },
+  { "id": "4a708cd9-0b6e-4315-94cc-c665beaa4acd", "name": "Australia vs England, 150th Anniversary One-off Test Match, 2027", "startDate": "2027-03-11", "endDate": "Mar 15", "odi": 0, "t20": 0, "test": 1, "squads": 0, "matches": 1 },
+  { "id": "eb59e02f-5f61-40c9-9f88-5824445e62b5", "name": "Australia vs England, 150th Anniversary One-off Test Match, 2027", "startDate": "Mar 11", "endDate": "Mar 15", "odi": 0, "t20": 0, "test": 1, "squads": 0, "matches": 0 },
+  { "id": "6489ceaf-6b96-426f-8092-4d47d0b34d9b", "name": "New Zealand Women tour of Australia, 2026", "startDate": "Oct 18", "endDate": "Oct 22", "odi": 0, "t20": 3, "test": 0, "squads": 0, "matches": 0 },
+  { "id": "945b11eb-ccb7-46af-b0bb-3dcda50330dd", "name": "SA20, 2027", "startDate": "2027-01-17", "endDate": "Feb 21", "odi": 0, "t20": 34, "test": 0, "squads": 0, "matches": 34 },
+  { "id": "181dfb42-895f-4a4d-8907-94c125df9871", "name": "Australia tour of India, 2027", "startDate": "2027-01-21", "endDate": "Mar 03", "odi": 0, "t20": 0, "test": 5, "squads": 0, "matches": 5 }
+]
